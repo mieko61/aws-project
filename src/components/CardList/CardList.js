@@ -1,6 +1,6 @@
 import "./CardList.scss";
 import Card from "../Card/Card";
-import resultsData from "../../data/sample.json";
+import resultsData from "../../data/results.json";
 
 let CardList = () => {
   return (
@@ -13,8 +13,9 @@ let CardList = () => {
             publisher={result.publisher}
             price={result.price}
             downloads={result.downloads}
-            fileType={result.fileType}
+            dataType={result.dataType}
             numStars={result.numStars}
+            image={result.image}
           />
         );
       })}
