@@ -3,16 +3,21 @@ import chevron from "../../assets/icons/Chevron.png";
 import star from "../../assets/icons/Icon.png";
 
 let Card = (props) => {
+  const star = "⭐";
+
+  // let rating = star.repeat(props.numStars);
+
   return (
     <li className="card">
-      <img className="card__image" src={"/"} />
+      <img className="card__image" src={props.image} />
       <div className="card__info">
         <article className="header">
           <h1 className="header__title">{props.name}</h1>
-          <img className="header__rating" src={star} />
+          {/* <img className="header__rating" src={star.repeat(props.numStars)} /> */}
+          <div className="header__rating">{star.repeat(props.numStars)}</div>
           <article className="author">
             <p>By&nbsp;</p>
-            <h2>{props.company}</h2>
+            <h2>{props.publisher}</h2>
           </article>
         </article>
         <article className="body">

@@ -7,12 +7,17 @@
   display: flex;
   width: 40%;
   padding: 0.5rem;
-  border: 1px solid red;
+  border: 1px solid $light-grey;
   position: relative;
   background-color: white;
 
+  &:hover {
+    border: 2px solid $light-blue;
+  }
+
   &__image {
     width: 20%;
+    padding-right: 0.5rem;
   }
 
   &__info {
@@ -26,6 +31,10 @@
     position: absolute;
     top: 1rem;
     right: -3rem;
+
+    &:hover {
+      font-weight: 700;
+    }
 
     &__text {
       font-size: 15px;

@@ -6,7 +6,9 @@ const Results = () => {
   return (
     <main className="main">
       <img className="main__background" src={backgroundImage}></img>
-      <CardList />
+      <article className="card-container">
+        <CardList />
+      </article>
     </main>
   );
 };
