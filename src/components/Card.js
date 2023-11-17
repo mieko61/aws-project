@@ -1,10 +1,11 @@
 import "./Card.scss";
-import { chevron } from "../assets/icons/Chevron.png";
+import chevron from "../assets/icons/Chevron.png";
+import star from "../assets/icons/Icon.png";
 
 let Card = () => {
   return (
     <div className="card">
-      <img className="card__image" src={"/"} />
+      <img className="card__image" src={star} />
       <div className="card__info">
         <article className="header">
           <h1 className="header__title">Data Title</h1>

@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Results from "../src/pages/Results/Results";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">AWS PROJECT</header>
+      <Results />
     </div>
   );
 }
