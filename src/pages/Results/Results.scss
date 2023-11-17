@@ -1,0 +1,15 @@
+.main {
+  &__background {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+  }
+}
+
+.card-container {
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  //   top: 12;
+  //   right: -45;
+}
