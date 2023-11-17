@@ -1,0 +1,83 @@
+@use "../styles/colors" as *;
+@use "../styles/variables" as *;
+@use "../styles/mixins" as *;
+@use "../styles/globals" as *;
+
+.card {
+  display: flex;
+  width: 50%;
+  padding: 0.5rem;
+  border: 1px solid red;
+  position: relative;
+
+  &__image {
+    width: 20%;
+  }
+
+  &__info {
+    width: 60%;
+  }
+
+  &__more {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 1rem;
+    right: -3rem;
+
+    &__text {
+      font-size: 15px;
+      color: $dark-blue;
+    }
+    &__chevron {
+      height: 1rem;
+      padding-left: 0.5rem;
+    }
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+
+  &__title {
+    margin-bottom: 0.5rem;
+  }
+
+  &__rating {
+    height: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+}
+
+.author {
+  display: flex;
+  margin-bottom: 0.75rem;
+}
+
+.body {
+  display: flex;
+
+  &__category {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 1rem;
+
+    &__name {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  &__data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &__name {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
