@@ -1,0 +1,17 @@
+@use "../../styles/colors" as *;
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+@use "../../styles/globals" as *;
+
+.sort-section {
+  height: 4rem;
+  background-color: $off-white;
+  width: 20%;
+}
+
+select {
+  fontsize: 14px;
+  width: 16rem;
+  height: 2rem;
+  padding: 0.5rem 1rem;
+}

@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Results from "../src/pages/Results/Results";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { useEffect, useState } from "react";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

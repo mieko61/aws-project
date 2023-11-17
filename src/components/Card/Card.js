@@ -24,12 +24,12 @@ let Card = (props) => {
           <article className="body__category">
             <h3 className="body__category__name">Price:</h3>
             <h3 className="body__category__name">Downloads:</h3>
-            <h3 className="body__category__name">File Type:</h3>
+            <h3 className="body__category__name">Data Type:</h3>
           </article>
           <article className="body__data">
             <p className="body__data__name">{props.price}</p>
             <p className="body__data__name">{props.downloads}</p>
-            <p className="body__data__name">{props.fileType}</p>
+            <p className="body__data__name">{props.dataType}</p>
           </article>
         </article>
       </div>

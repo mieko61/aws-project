@@ -7,10 +7,18 @@
   }
 }
 
+.sort-container {
+  z-index: 3;
+  position: absolute;
+  width: 100%;
+  top: 16.5rem;
+  right: -85rem;
+}
+
 .card-container {
   z-index: 2;
-  position: relative;
-  width: auto;
-  top: -37rem;
-  right: -35rem;
+  position: absolute;
+  width: 100%;
+  top: 21rem;
+  left: 35rem;
 }

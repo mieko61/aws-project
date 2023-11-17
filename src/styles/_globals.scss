@@ -16,27 +16,28 @@ html {
 body {
   font-family: "AmazonEmber", Arial, Helvetica, sans-serif;
   color: $grey;
+  text-align: left;
 }
 
 h1 {
-  font-size: 15px;
+  font-size: 16px;
   color: $blue;
   font-weight: 700;
   text-decoration: underline;
 }
 
 h2 {
-  font-size: 12px;
+  font-size: 13px;
   color: $light-blue;
   font-weight: 700;
 }
 
 h3 {
-  font-size: 12px;
+  font-size: 13px;
   color: $grey;
   font-weight: 700;
 }
 
 p {
-  font-size: 12px;
+  font-size: 13px;
 }

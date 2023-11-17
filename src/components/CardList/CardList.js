@@ -1,11 +1,11 @@
 import "./CardList.scss";
 import Card from "../Card/Card";
-import resultsData from "../../data/sample.json";
+import resultsData from "../../data/results.json";
 
-let CardList = () => {
+let CardList = ({ results }) => {
   return (
     <ul className="cards-list">
-      {resultsData.map((result) => {
+      {results.map((result) => {
         return (
           <Card
             key={result.id}
@@ -13,8 +13,9 @@ let CardList = () => {
             publisher={result.publisher}
             price={result.price}
             downloads={result.downloads}
-            fileType={result.fileType}
+            dataType={result.dataType}
             numStars={result.numStars}
+            image={result.image}
           />
         );
       })}
